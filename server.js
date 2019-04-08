@@ -17,6 +17,7 @@ if (process.env.NODE_ENV === "production") {
 
 // Connect to the Mongo DB
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/googlebooks");
+if (process.env.NODE_ENV === "production") { app.use(express.static("client/build")); }
 
 // Start the API server
 app.listen(PORT, function() {

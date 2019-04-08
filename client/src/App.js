@@ -1,9 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import Home from "./components/Pages/Home";
+import Home from "./Pages/Home";
 import NavTabs from "./components/NavTabs/NavTabs";
-import Search from "./components/Pages/Search";
-import Saved from "./components/Pages/Saved";
+import Search from "./Pages/Search";
+import Saved from "./Pages/Saved";
 import Wrapper from "./components/Wrapper";
 import Footer from "./components/Footer";
 

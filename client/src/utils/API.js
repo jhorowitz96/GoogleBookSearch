@@ -1,4 +1,6 @@
 import axios from "axios";
+const URL = "https://www.googleapis.com/books/v1/volumes?q="
+const API = "AIzaSyCo4Ehs56I4lajDGEATlFd4_e1GvLJy7Gw"
 
 export default {
     // Gets all books
@@ -6,8 +8,8 @@ export default {
         return axios.get("/api/books");
     },
     // Search books
-    searchBooks: (title) => {
-        return axios.post("/search", { title: title });
+    search: function(query) {
+        return axios.get(URL + query + API);
     },
     // Deletes the book with the given id
     deleteBook: function (id) {
