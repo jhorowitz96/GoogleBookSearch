@@ -45,8 +45,8 @@ class Search extends Component {
         <div className="search">
 
           
-          <input id="bookQ" className="form-control form-control-lg" autoComplete="off" type="text" name="query" onChange={this.handleInput} />
-          <button id="searchBtn" className="btn btn-dark" type="submit" onClick={this.searchGBooks} >
+          <input id="bookQ" className="form-control form-control-sm" autoComplete="on" type="text" name="query" onChange={this.handleInput} />
+          <button id="searchBtn" className="btn btn-light" type="submit" onClick={this.searchGBooks} >
             Search for Books
           </button>
                    
