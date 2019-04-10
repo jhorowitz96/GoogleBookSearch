@@ -1,7 +1,7 @@
 {
   "name": "mern",
   "version": "1.0.0",
-  "description": "react based google book search",
+  "description": "react google books",
   "main": "server.js",
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
@@ -35,10 +35,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TennisSprinterkb/MERN-books.git"
+    "url": "git+https://github.com/jhorowitz96/GoogleBookSearch"
   },
   "bugs": {
-    "url": "https://github.com/TennisSprinterkb/MERN-books/issues"
+    "url": "https://github.com/jhorowitz96/GoogleBookSearch/issues"
   },
-  "homepage": "https://github.com/TennisSprinterkb/MERN-books#readme"
+  "homepage": "https://github.com/jhorowitz96/GoogleBookSearch#readme"
 }
