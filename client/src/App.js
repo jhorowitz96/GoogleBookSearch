@@ -4,11 +4,13 @@ import Saved from "./pages/Saved";
 import Search from "./pages/Search";
 import Nav from "./components/Nav";
 import { Container} from "./components/Grid";
+// import Wrapper from "./components/Wrapper";
 
 class App extends Component {
   render() {
     return (
       <div>
+        
         <Nav/>
         <Router>
           <Container>
@@ -17,9 +19,10 @@ class App extends Component {
               <Route path="/bookshelf" component={Saved} />
               <Route exact path="/books/:id" component={null} />
               <Route component={null} />
-            </Switch>
+            </Switch>          
           </Container>
         </Router>
+        
       </div>
     );
   }
